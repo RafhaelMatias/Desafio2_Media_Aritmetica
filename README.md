@@ -13,14 +13,11 @@ Em uma escola, a média final é dada pela média aritmética de duas notas. E a
 
 Média | Situação do Aluno
 
-0 - 4.9
-Aluno em recuperação
+0 - 4.9 |Aluno em recuperação
 
-5 - 6.9
-Aluno em prova final
+5 - 6.9 |Aluno em prova final
 
-7 - 10
-Aluno aprovado por média
+7 - 10 |Aluno aprovado por média
 
 
 Desenvolva um algoritmo que a partir da entrada das três notas mostre a situação do aluno. No caso do aluno em recuperação e prova final, mostre também quanto o aluno irá precisar para passar. No caso da recuperação a nota necessária para passar é dada por 10 – Média + 2 e na prova final é dado por 10 – Média.
