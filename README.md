@@ -11,12 +11,14 @@ PROFESSOR(A): Thiago Vasconcelos Costa Freire
 
 Em uma escola, a média final é dada pela média aritmética de duas notas. E a mesma tem o seguinte esquema de avaliação: 
 
-Média
-Situação do Aluno
+Média | Situação do Aluno
+
 0 - 4.9
 Aluno em recuperação
+
 5 - 6.9
 Aluno em prova final
+
 7 - 10
 Aluno aprovado por média
 
