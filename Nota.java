@@ -16,9 +16,9 @@ public class Nota {
         double prova_final;
 
 
-        System.out.println("Digite sua primeira Nota: ");
+        System.out.println("Sua primeira Nota (apenas numeros): ");
         n1 = a.nextDouble();
-        System.out.println("Digite sua segunda Nota: ");
+        System.out.println("Sua segunda Nota (apenas numeros): ");
         n2 = a.nextDouble();
 
         soma = n1 + n2;
@@ -26,7 +26,7 @@ public class Nota {
         System.out.println("Sua média e: " + media);
 
         recuperacao = 10 - media + 2;
-        prova_final = 10 + media;
+        prova_final = 10 - media;
 
         if( (media >= 0) && (media <= 4.9) ){
             System.out.println("Aluno está na recuperação");
